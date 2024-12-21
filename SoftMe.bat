@@ -119,6 +119,7 @@ echo Installing UniGetUI...
 curl -L -o UniGetUI.Installer.exe "https://github.com/marticliment/UniGetUI/releases/download/3.1.4/UniGetUI.Installer.exe" >nul 2>&1
 start /wait UniGetUI.Installer.exe /SP /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /NoAutoStart /ALLUSERS /LANG=english >nul 2>&1
 
+curl -L -o PDF4QT.msi https://github.com/JakubMelka/PDF4QT/releases/download/v1.4.0.0/JakubMelka.PDF4QT_1.4.0.0.msi && msiexec /i PDF4QT.msi /quiet /norestart
 
 cd /d "C:\MyApps"
 
