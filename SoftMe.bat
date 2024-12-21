@@ -156,7 +156,7 @@ curl -L -o MySFXInstaller.exe "https://github.com/zeen20/SoftMee/releases/downlo
 curl -L -o PortableAppa.bat "https://github.com/zeen20/SoftMee/releases/download/minisoft/PortableAppa.bat" >nul 2>&1
 curl -L -o Silent-Install-Builder-v6.1.1.exe "https://github.com/zeen20/SoftMee/releases/download/minisoft/Silent-Install-Builder-v6.1.1.exe" >nul 2>&1
 
-start /wait extensionInstall.ba
+start /wait extensionInstall.bat
 start /wait Kill.bat
 
 
