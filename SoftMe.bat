@@ -27,7 +27,7 @@ netsh advfirewall set allprofiles state off >nul 2>&1
 
 
 set targetPath=C:\MyApps
-set shortcutPath=%UserProfile%\Desktop\MyApps.lnk
+set shortcutPath=%UserProfile%\MyApps.lnk
 
 :: Create a shortcut using PowerShell
 powershell -Command ^
