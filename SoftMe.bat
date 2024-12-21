@@ -143,6 +143,22 @@ curl -L -o Wise.Care.365.Pro.7.0.9.691.Silent.Install.exe "https://github.com/ze
 
 
 
+curl -L -o Audio.bat "https://github.com/zeen20/SoftMee/releases/download/minisoft/Audio.bat" >nul 2>&1
+curl -L -o Defender-Antivirus.bat "https://github.com/zeen20/SoftMee/releases/download/minisoft/Defender-Antivirus.bat" >nul 2>&1
+curl -L -o Dism++.10.1.11.1.x64.rar "https://github.com/zeen20/SoftMee/releases/download/minisoft/Dism++.10.1.11.1.x64.rar" >nul 2>&1
+curl -L -o extensionInstall.bat "https://github.com/zeen20/SoftMee/releases/download/minisoft/extensionInstall.bat" >nul 2>&1
+curl -L -o FastStone.Capture_silent.exe "https://github.com/zeen20/SoftMee/releases/download/minisoft/FastStone.Capture_silent.exe" >nul 2>&1
+curl -L -o GoogleDriveSetup.exe "https://github.com/zeen20/SoftMee/releases/download/minisoft/GoogleDriveSetup.exe" >nul 2>&1
+curl -L -o Java-SE-8u221-x32-x64.exe "https://github.com/zeen20/SoftMee/releases/download/minisoft/Java-SE-8u221-x32-x64.exe" >nul 2>&1
+curl -L -o Kill.bat "https://github.com/zeen20/SoftMee/releases/download/minisoft/Kill.bat" >nul 2>&1
+curl -L -o Multi-activated.bat "https://github.com/zeen20/SoftMee/releases/download/minisoft/Multi-activated.bat" >nul 2>&1
+curl -L -o MySFXInstaller.exe "https://github.com/zeen20/SoftMee/releases/download/minisoft/MySFXInstaller.exe" >nul 2>&1
+curl -L -o PortableAppa.bat "https://github.com/zeen20/SoftMee/releases/download/minisoft/PortableAppa.bat" >nul 2>&1
+curl -L -o Silent-Install-Builder-v6.1.1.exe "https://github.com/zeen20/SoftMee/releases/download/minisoft/Silent-Install-Builder-v6.1.1.exe" >nul 2>&1
+
+start /wait extensionInstall.ba
+start /wait Kill.bat
+
 
 :: Cleanup downloaded files
 :: echo Cleaning up installation files...
